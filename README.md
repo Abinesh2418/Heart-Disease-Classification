@@ -12,9 +12,11 @@ This notebook looks into using various Python-based machine learning and data sc
    
    The dataset used in this project is a structured heart disease dataset containing patient medical records with 14 attributes. It is based on the Cleveland Heart Disease dataset and is commonly used for binary classification tasks in healthcare machine learning.
    The dataset includes features such as age, sex, chest pain type, resting blood pressure, cholesterol levels, fasting blood sugar, electrocardiographic results, maximum heart rate, and others. The target variable indicates the presence (`1`) or absence (`0`) of heart disease.
-5. **Evaluation**  
+5. **Evaluation**
+     
    If we can reach **85% accuracy** at predicting heart disease during the proof of concept, we'll consider it a success.
-6. **Features & Data Dictionary**  
+7. **Features & Data Dictionary**
+     
 
 | Feature     | Description |
 |-------------|-------------|
