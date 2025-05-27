@@ -6,13 +6,15 @@ This project uses machine learning to predict the presence of heart disease in p
 This notebook looks into using various Python-based machine learning and data science libraries to build a classification model capable of predicting whether or not someone has heart disease based on their medical attributes.
 
 1. **Problem Definition**
+   
    Given clinical parameters about a patient, can we predict whether or not they have heart disease?
-2. **Data**
+3. **Data**
+   
    The dataset used in this project is a structured heart disease dataset containing patient medical records with 14 attributes. It is based on the Cleveland Heart Disease dataset and is commonly used for binary classification tasks in healthcare machine learning.
    The dataset includes features such as age, sex, chest pain type, resting blood pressure, cholesterol levels, fasting blood sugar, electrocardiographic results, maximum heart rate, and others. The target variable indicates the presence (`1`) or absence (`0`) of heart disease.
-3. **Evaluation**  
+5. **Evaluation**  
    If we can reach **85% accuracy** at predicting heart disease during the proof of concept, we'll consider it a success.
-4. **Features & Data Dictionary**  
+6. **Features & Data Dictionary**  
 
 | Feature     | Description |
 |-------------|-------------|
