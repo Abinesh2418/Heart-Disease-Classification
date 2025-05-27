@@ -1,7 +1,7 @@
 # ❤️ Heart Disease Classification
 
 This project uses machine learning to predict the presence of heart disease in patients based on clinical parameters. It leverages Python-based libraries to build, evaluate, and improve classification models. The goal is to support early diagnosis and medical decision-making.
-
+---
 ## 🧠 About the Project
 This notebook looks into using various Python-based machine learning and data science libraries to build a classification model capable of predicting whether or not someone has heart disease based on their medical attributes.
 
