@@ -46,4 +46,39 @@ Heart-Disease-Classification/
 ├── requirements.txt
 └── README.md
 
+## 🧠 Project Workflow Summary
+
+This project involves building a machine learning model to predict the presence of heart disease using various patient attributes. The following steps were carried out:
+
+### 📌 1. Data Preprocessing
+- Loaded the heart disease dataset from a CSV file.
+- Handled missing values (if any) and verified data integrity.
+- Converted categorical features to numerical (if required).
+- Split the dataset into training and testing sets using `train_test_split`.
+- Scaled the feature values for better model performance.
+
+### 🤖 2. Model Building
+- Implemented and compared multiple classification models:
+  - `RandomForestClassifier`
+  - `KNeighborsClassifier`
+  - `LogisticRegression`
+- Created a utility function `fit_and_score()` to train each model and evaluate their accuracy on the test set.
+
+### 🔍 3. Hyperparameter Tuning
+- Performed **RandomizedSearchCV** and **GridSearchCV** to find the best hyperparameters for `LogisticRegression` and `RandomForestClassifier`.
+- Explored a wide range of parameters such as `C`, `solver`, `n_estimators`, `max_depth`, and `min_samples_leaf` for improved accuracy.
+
+### 📊 4. Model Evaluation
+- Evaluated model performance using key metrics:
+  - Accuracy
+  - Precision
+  - Recall
+  - F1-Score
+- Used `cross_val_score` to validate the consistency of the model using k-fold cross-validation (k=5).
+
+### ✅ 5. Final Model Selection
+- Chose the best-performing model based on a balance of evaluation metrics.
+- Achieved high accuracy and reliable performance in predicting heart disease from clinical data.
+
+---
 
