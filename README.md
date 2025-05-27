@@ -33,6 +33,13 @@ This notebook looks into using various Python-based machine learning and data sc
 
 ---
 
+## 📁 Project Structure
 
+Heart-Disease-Classification/
+├── Dataset/
+│ └── heart.csv
+├── heart_disease_analysis.ipynb
+├── requirements.txt
+└── README.md
 
 
